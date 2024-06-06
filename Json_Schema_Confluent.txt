@@ -1,0 +1,150 @@
+{
+    "namespace": "datagen",
+    "name": "campaign_finance",
+    "type": "record",
+    "fields": [
+        {
+            "name": "key_id",
+            "type": {
+                "type": "int",
+                "arg.properties": {
+                    "iteration": {
+                        "start": 0
+                    }
+                }
+            }
+        },
+        {
+            "name": "cloud_cover",
+            "type": {
+                "type": "int",
+                "arg.properties": {
+                    "range": {
+                        "min": 0,
+                        "max": 8
+                    }
+                }
+            }
+        },
+        {
+            "name": "wind_speed",
+            "type": {
+                "type": "double",
+                "arg.properties": {
+                    "range": {
+                        "min": 0,
+                        "max": 11
+                    }
+                }
+            }
+        },
+        {
+            "name": "wind_gust",
+            "type": {
+                "type": "double",
+                "arg.properties": {
+                    "range": {
+                        "min": 1.5,
+                        "max": 27.3
+                    }
+                }
+            }
+        },
+        {
+            "name": "humidity",
+            "type": {
+                "type": "double",
+                "arg.properties": {
+                    "range": {
+                        "min": 0.24,
+                        "max": 1
+                    }
+                }
+            }
+        },
+        {
+            "name": "pressure",
+            "type": {
+                "type": "double",
+                "arg.properties": {
+                    "range": {
+                        "min": 0.959,
+                        "max": 1.0511
+                    }
+                }
+            }
+        },
+        {
+            "name": "global_radiation",
+            "type": {
+                "type": "double",
+                "arg.properties": {
+                    "range": {
+                        "min": 0.01,
+                        "max": 3.53
+                    }
+                }
+            }
+        },
+        {
+            "name": "precipitation",
+            "type": {
+                "type": "double",
+                "arg.properties": {
+                    "range": {
+                        "min": 0,
+                        "max": 5.6
+                    }
+                }
+            }
+        },
+        {
+            "name": "sunshine",
+            "type": {
+                "type": "double",
+                "arg.properties": {
+                    "range": {
+                        "min": 0,
+                        "max": 24
+                    }
+                }
+            }
+        },
+        {
+            "name": "temp_mean",
+            "type": {
+                "type": "double",
+                "arg.properties": {
+                    "range": {
+                        "min": 10.1,
+                        "max": 20.1
+                    }
+                }
+            }
+        },
+        {
+            "name": "temp_min",
+            "type": {
+                "type": "double",
+                "arg.properties": {
+                    "range": {
+                        "min": -5.1,
+                        "max": 4.9
+                    }
+                }
+            }
+        },
+        {
+            "name": "temp_max",
+            "type": {
+                "type": "double",
+                "arg.properties": {
+                    "range": {
+                        "min": 25.1,
+                        "max": 35.1
+                    }
+                }
+            }
+        }
+    ]
+}
